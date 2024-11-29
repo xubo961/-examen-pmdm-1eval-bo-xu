@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     SharedPreferences preferences = getSharedPreferences("Usuario", Context.MODE_PRIVATE);
     String name = preferences.getString("user", "");
-    String password = preferences.getString("password", "");
+    String password = preferences.getString("password", "examenpmdm");
 
     private ActivityMainactivityBinding binding;
 

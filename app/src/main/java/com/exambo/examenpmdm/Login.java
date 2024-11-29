@@ -42,7 +42,7 @@ public class Login extends AppCompatActivity {
                 String logUser = String.valueOf(usuario.getEditText().getText());
                 String logPassword = String.valueOf(contraseña.getEditText().getText());
                 String regUser = preferences.getString("user", "");
-                String regPassword = preferences.getString("password", "");
+                String regPassword = preferences.getString("password", "examenpmdm");
 
                 if (!logUser.equals(regUser)) {
                     Toast toastUser = Toast.makeText(getApplicationContext(), "Introduce el Usuario o el Usuario no coinciden", Toast.LENGTH_SHORT);
